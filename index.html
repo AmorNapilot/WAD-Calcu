@@ -10,26 +10,28 @@
 </head>
 <body>
 <div class ="calculator">
-	<div class="result">TEXT</div>
-	<input type="button" class="clear" value="C">
-	<input type="button" class="keys" value="DEL">
-	<input type="button" class="key" value="/">
-	<input type="button" class="key" value="*">
-	<input type="button" class="keys" value="9">
-	<input type="button" class="keys" value="8">
-	<input type="button" class="keys" value="7">
-	<input type="button" class="key" value="+">
-	<input type="button" class="keys" value="6">
-	<input type="button" class="keys" value="5">
-	<input type="button" class="keys" value="4">
-	<input type="button" class="key" value="-">
-	<input type="button" class="keys" value="3">
-	<input type="button" class="keys" value="2">
-	<input type="button" class="keys" value="1">
-	<input type="button" class="keys1" value="=">
-	<input type="button" class="keys2" value="0">
-	<input type="button" class="keys2" value=".">
-</div>
-<div id="display"></div>
+<input name="case" type="text" id="display">
+	<div class="result">0</div>
+	<input type="button" class="clear" value="C" onclick="runC()">
+	<input type="button" class="keys" value="DEL" onclick="DEL()">
+	<input type="button" class="key" value="/"  onclick="runDivide()">
+	<input type="button" class="key" value="*" onclick="runMultiply()">
+	<input type="button" class="keys" value="9"  onclick="run9()">
+	<input type="button" class="keys" value="8"  onclick="run8()">
+	<input type="button" class="keys" value="7"  onclick="run7()">
+	<input type="button" class="key" value="+"  onclick="()">
+	<input type="button" class="keys" value="6"  onclick="run6()">
+	<input type="button" class="keys" value="5"  onclick="run5()">
+	<input type="button" class="keys" value="4"  onclick="run4()">
+	<input type="button" class="key" value="-"  onclick="Minus()">
+	<input type="button" class="keys" value="3"  onclick="run3()">
+	<input type="button" class="keys" value="2"  onclick="run2()">
+	<input type="button" class="keys" value="1"  onclick="run1()">
+	<input type="button" class="keys1" value="="  onclick="e()">
+	<input type="button" class="keys2" value="0"  onclick="run0()">
+	<input type="button" class="keys2" value="."  onclick="runC()">
+
+</input>
+</form>
 </body>
 </html>
