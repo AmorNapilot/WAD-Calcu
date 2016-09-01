@@ -20,13 +20,14 @@
 	background-color: #3399cc;
 	border: solid black 1px;
 	border-radius: .4em;
-	text-align: left;
+	text-decoration-style: bold;
+	text-align: center;
 	line-height: 35px;
 	box-shadow: 1px 3px black;
 }
 .clear{
 	background-color: red;
-		width: 57px;
+		width: 57.5px;
 }
 .key{
 	background-color: #ccffcc;
@@ -50,20 +51,19 @@
 	height: 50px;
 	margin-top: 10px;
 	background-color: white;
-	text-align: center;
-	line-height: 50px;
 	border-radius: .3em;
 	border: #330000 solid 3px;
 	margin-bottom: 20px;
+	user-select: none;
 	box-shadow: 1px 3px black;
 }
 .keys1{
-	width: 50px
+	width: 51px
 	height: 90px;
 	margin-top: 5px;
-	margin-right: 15px;
+	margin-right: 14px;
 	float: right;
-	padding: 22px;
+	padding: 23px;
 	background-color: #ccffcc;
 	border: solid black 1px;
 	border-radius: .4em;
