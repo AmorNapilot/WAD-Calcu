@@ -3,7 +3,7 @@
 	width: 260px;
 	height: 320px;
 	margin: 50px auto;
-	background-color: #666666;
+	background-color: #333366;
 	padding: 10px;
 	padding-left: 15px;
 	border-radius: .3em;
@@ -17,10 +17,10 @@
 	height: 40px;
 	margin: 2px;
 	float: left;
-	background-color: white;
+	background-color: #3399cc;
 	border: solid black 1px;
 	border-radius: .4em;
-	text-align: center;
+	text-align: left;
 	line-height: 35px;
 	box-shadow: 1px 3px black;
 }
@@ -81,7 +81,7 @@ width: 89px;
 height: 40px;
 margin: 2px;
 float: left;
-background-color: white;
+background-color: #3399cc;
 border: solid black 1px;
 border-radius: .4em;
 box-shadow: 3px black;
