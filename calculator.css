@@ -1,0 +1,96 @@
+.calculator
+{
+	width: 260px;
+	height: 320px;
+	margin: 50px auto;
+	background-color: #666666;
+	padding: 10px;
+	padding-left: 15px;
+	border-radius: .3em;
+	box-shadow: 5px 5px 5px gray;
+	border: black solid 3px;
+}
+
+.clear , .keys, .key
+{
+	width: 58px;
+	height: 40px;
+	margin: 2px;
+	float: left;
+	background-color: white;
+	border: solid black 1px;
+	border-radius: .4em;
+	text-align: center;
+	line-height: 35px;
+	box-shadow: 1px 3px black;
+}
+.clear{
+	background-color: red;
+		width: 57px;
+}
+.key{
+	background-color: #ccffcc;
+}
+.clear:hover{
+	background-color: black;
+	color: red;
+}
+.key:hover{
+	background-color: black;
+	color: red;
+}
+.keys:hover{
+	background-color: black;
+	color: red;
+}
+
+.result
+{
+	width: 250px;
+	height: 50px;
+	margin-top: 10px;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	border-radius: .3em;
+	border: #330000 solid 3px;
+	margin-bottom: 20px;
+	box-shadow: 1px 3px black;
+}
+.keys1{
+	width: 50px
+	height: 90px;
+	margin-top: 5px;
+	margin-right: 15px;
+	float: right;
+	padding: 22px;
+	background-color: #ccffcc;
+	border: solid black 1px;
+	border-radius: .4em;
+	text-align: center;
+	line-height: 35px;
+	box-shadow: 1px 3px black;
+}
+.keys1:hover{
+	background-color: black;
+	color: red;
+}
+
+.keys2{
+width: 89px;
+height: 40px;
+margin: 2px;
+float: left;
+background-color: white;
+border: solid black 1px;
+border-radius: .4em;
+box-shadow: 3px black;
+text-align: center;
+line-height: 35px;
+box-shadow: 1px 3px black;
+}
+
+.keys2:hover{
+	background-color: black;
+	color: red;
+}
