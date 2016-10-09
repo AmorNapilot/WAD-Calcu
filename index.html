@@ -9,27 +9,38 @@
 
 </head>
 <body>
-<form name="document" class ="calculator">
-<input name="case" type="text" id="display" class="result">
-	<input type="button" class="clear" value="C" onclick="runC()">
-	<input type="button" class="keys" value="DEL" onclick="DEL()">
-	<input type="button" class="key" value="/"  onclick="runDivide()">
-	<input type="button" class="key" value="*" onclick="runMultiply()">
-	<input type="button" class="keys" value="9"  onclick="run9()">
-	<input type="button" class="keys" value="8"  onclick="run8()">
-	<input type="button" class="keys" value="7"  onclick="run7()">
-	<input type="button" class="key" value="+"  onclick="()">
-	<input type="button" class="keys" value="6"  onclick="run6()">
-	<input type="button" class="keys" value="5"  onclick="run5()">
-	<input type="button" class="keys" value="4"  onclick="run4()">
-	<input type="button" class="key" value="-"  onclick="Minus()">
-	<input type="button" class="keys" value="3"  onclick="run3()">
-	<input type="button" class="keys" value="2"  onclick="run2()">
-	<input type="button" class="keys" value="1"  onclick="run1()">
-	<input type="button" class="keys1" value="="  onclick="e()">
-	<input type="button" class="keys2" value="0"  onclick="run0()">
-	<input type="button" class="keys2" value="."  onclick="runC()">
 
+<div id ="calcu">
+<form name="calculator"> 
+<input type="text" name="display" />
+<br/>
+	<input type="button" value= "C" class= "clear" onclick="c()"/>
+	<input type="button" value= "*" class= "key" onclick="multiply()"/>
+	<input type="button" value= "/" class= "key" onclick="divide()"/>
+	<input type="button" value= "9" class= "keys" onclick="document.calculator.display.value += '9'"/>
+	<input type="button" value= "8" class= "keys" onclick="document.calculator.display.value += '8'"/>
+	<br/>
+
+	<input type="button" value= "7" class= "keys" onclick="document.calculator.display.value += '7'"/>
+	<input type="button" value= "+" class= "key" onclick="plus()"/>
+	<input type="button" value= "6" class= "keys" onclick="document.calculator.display.value += '6'"/>
+	<br/>
+
+	<input type="button" value= "5" class= "keys" onclick="document.calculator.display.value += '5'"/>
+	<input type="button" value= "4" class= "keys" onclick="document.calculator.display.value += '4'"/>
+	<input type="button" value= "-" class= "key" onclick="minus()"/>
+	<input type="button" value= "3" class= "keys" onclick="document.calculator.display.value += '3'"/>
+	<br/>
+
+	<input type="button" value= "2" class= "keys" onclick="document.calculator.display.value += '2'"/>
+	<input type="button" value= "1" class= "keys" onclick="document.calculator.display.value += '1'"/>
+	<input type="button" value= "=" class= "keys1" onclick="e()"/>
+	<input type="button" value= "." class= "keys2" onclick="dot()"/>
+	<input type="button" value= "0" class= "keys2" onclick="document.calculator.display.value += 0"/>
+	<br/>
+
+</form>
+</div>
 </input>
 </form>
 </body>
