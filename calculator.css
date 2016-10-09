@@ -1,5 +1,4 @@
 body{
-	background-image: url("smile5.jpg");
 	background-repeat: repeat-y;
 	background-color: #9999FF;
 }
@@ -24,6 +23,8 @@ input[type=text]{
 	margin-bottom: 20px;
 	box-shadow: 1px 3px black;
 	text-decoration: bold; 	
+	font-size: 18px;
+	font-type:bold;
 }
 .clear , .keys, .key
 {
@@ -37,6 +38,8 @@ input[type=text]{
 	text-align: center;
 	line-height: 35px;
 	box-shadow: 1px 3px black;
+	font-size: 18px;
+	font-family: "Berlin Sans FB";
 }
 .clear{
 	background-color: red;
@@ -70,6 +73,8 @@ input[type=text]{
 	text-align: center;
 	line-height: 40px;
 	box-shadow: 1px 3px black;
+	font-size: 18px;
+	font-family: "Berlin Sans FB";
 }
 .keys1:hover{
 	background-color: black;
@@ -77,17 +82,19 @@ input[type=text]{
 }
 
 .keys2{
-width: 89px;
-height: 40px;
-margin: 2px;
-float: left;
-background-color: #3399cc;
-border: solid black 1px;
-border-radius: .4em;
-box-shadow: 3px black;
-text-align: center;
-line-height: 35px;
-box-shadow: 1px 3px black;
+	width: 89px;
+	height: 40px;
+	margin: 2px;
+	float: left;
+	background-color: #3399cc;
+	border: solid black 1px;
+	border-radius: .4em;
+	box-shadow: 3px black;
+	text-align: center;
+	line-height: 35px;
+	box-shadow: 1px 3px black;
+	font-size: 18px;
+	font-family: "Berlin Sans FB";
 }
 
 .keys2:hover{
